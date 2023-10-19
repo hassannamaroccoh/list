@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: light steelblue;
+    width: 150px;
+    font: 1.25em sans-serif;
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+li a.current{
+    background: cornflowerblue;
+}
+li a:hover{
+    background: royalblue;
+    color: white;
+}
+@media  screen and(min-with:600px) {
+    
+}
+ul{
+    overflow: hidden;
+    width: 100%;
+}
+li a{
+    float: left;
+}
+
